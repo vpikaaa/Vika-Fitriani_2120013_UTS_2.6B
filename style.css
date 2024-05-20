@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    color:palevioletred;
+    margin: 20px;   
+    
+}
+#gambar{
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    border-radius: 50%;
+}
+#judul{
+    font-size: 25px;
+}
+#hasil{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px pink;
+    text-align: center;
+    margin: 0;
+    width: 500px;
+}
+
+
+.bing-gam{
+  
+    background-color:pink;
+    border-radius: 20px;
+}
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    margin-top: 0px;
+}
+button{
+    padding: 5px 10px;
+    background-color:white;
+    color: palevioletred;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0;
+    border-color:pink;
+    width: 100px;
+}
+button:hover {
+    background-color:palevioletred;
+    font-size: 16px;
+    border-radius: 4px;
+    border-color: aliceblue;
+    color: white;
+}
